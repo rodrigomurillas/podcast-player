@@ -1,0 +1,34 @@
+header {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 92.56px;
+  height: 26.03px;
+  top: 3.09px;
+  left: 12.99px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 1150px;
+  border-radius: 50%;
+}
