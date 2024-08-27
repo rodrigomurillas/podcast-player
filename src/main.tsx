@@ -1,10 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./header.tsx";
+import ListenAgain from "./listenagain.tsx";
+import RecommendedAlbum from "./recommendedAlbum.tsx";
+import SimilarTo from "./similarto.tsx";
+import QuickPicks from "./quickpicks.tsx";
+import Button from "./playbackbutton.tsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <Header />
+    <ListenAgain />
+    <SimilarTo />
+    <RecommendedAlbum />
+    <QuickPicks />
+    <Button />
+  </React.StrictMode>
+);

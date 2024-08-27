@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  gap: 30px;
+  border: 1px solid black;
+  margin-left: 15px;
+  gap: 30px;
+}
+
+.img {
+  align-items: center;
+}
+
+p {
+  color: black;
+}
